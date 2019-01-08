@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>后代选择器</title>
+		<style type="text/css">
+			.food li{
+				border:1px solid red;/*添加边框样式（粗细为1px， 颜色为红色的实线）*/	
+			}
+			.fruit > li{
+				border:1px solid red;/*添加边框样式（粗细为1px， 颜色为红色的实线）*/	
+			}
+		</style>
+	</head>
+	<body>
+		<ul class="fruit">
+			<li>水果
+				<ul>
+					<li>香蕉</li>
+					<li>苹果</li>
+					<li>梨</li>
+				</ul>
+			</li>
+		</ul>
+		<ul class="food">
+			<li>蔬菜
+				<ul>
+					<li>白菜</li>
+					<li>油菜</li>
+					<li>卷心菜</li>
+				</ul>
+			</li>
+		</ul>
+	</body>
+</html>
